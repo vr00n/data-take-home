@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% if company_names %}
+    {{ pagination.info }}
+    {{ pagination.links }}
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr><th>#</th><th>Company Name</th></tr>
+            </thead>
+            <tbody>
+                {% for company_name in company_names %}
+                {% set company_num = loop.index + (page - 1) * per_page %}
+                <tr>
+                    <td>{{ company_num }}</td>
+                    <td>
+                        <a id={{ company_num }} href="/companies/{{ company_name }}">
+                            {{ company_name }}</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {{ pagination.links }}
+    {% endif %}
+{% endblock %}
