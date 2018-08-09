@@ -11,8 +11,8 @@ your coordinator to take a look.
 
 ### Structure
 
-[edgar](tree/master/edgar) - company listing site. To start the web application review the readme in the foler
-[files](tree/master/files) - csv files
+[edgar](edgar) - company listing site. To start the web application review the readme in the foler
+[files](files) - csv files
 
 ## Questions
 
