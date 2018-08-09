@@ -1,3 +1,7 @@
+# EDGAR
+
+This is a python **2** [flask application](http://localhost:5000)
+
 ## Running Edgar
 
 `pip install -r requirements.txt`
