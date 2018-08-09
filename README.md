@@ -25,8 +25,7 @@ edgar is a company listings site containing ten pages of company links. Each lin
 as name, description and address. The sole requirement of this part of the test is to produce JSON of all of the company 
 listings data for the site.
 
-Please commit a "edgar.json" file of the parsed company listings data along with your solution code in the `solution/edgar` folder.
-Please include a `requirements.txt` file if necessary
+_Please commit a _edgar.json_ file of the parsed company listings data along with your solution code in the `solution/edgar` folder. Please include a `requirements.txt` file if necessary._
 
 #### Recommended libraries: 
 
@@ -48,9 +47,9 @@ You will find a CSV file in the files folder under [data.csv](files/data.csv). T
 
 Your script should take [data.csv](files/data.csv) as input and produce a cleansed "enriched.csv" file according to the step requirements above. 
 
-Please commit a "enriched.csv" file along with your solution code in the `solution/csv` folder.
+_Please commit a _enriched.csv_ file along with your solution code in the `solution/csv` folder._
 
-Recommended libraries:
+#### Recommended libraries:
 
 Python's [csv](https://docs.python.org/2/library/csv.html) module is standard for dealing with CSV data.
 
