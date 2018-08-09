@@ -58,7 +58,9 @@ Python's [csv](https://docs.python.org/2/library/csv.html) module is standard fo
 We ask that your solutions be implemented in Python. If you are coming from a different language or if your Python is rusty, we've linked to a few Python reference resources (in order of length/detail) below to help!
 
 [LPTHW](https://learnpythonthehardway.org/book/) - slow-build introduction to basic programming in Python.
+
 [Google's Python Class](https://developers.google.com/edu/python/) - crash course on Python syntax and data types.
+
 [learn x in y minutes](https://learnxinyminutes.com/docs/python/) - quick Python reference and run-through.
 
 _Anything specified as "optional" or "bonus" is just that, and you will not be penalized for its exclusion._
