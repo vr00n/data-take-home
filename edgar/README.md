@@ -1,6 +1,6 @@
 # EDGAR
 
-This is a python **2** [flask application](http://localhost:5000)
+This is a python **2** [flask application](http://localhost:5000). We strongly recommend creating a virtual env before performing the steps below.
 
 ## Running Edgar
 
