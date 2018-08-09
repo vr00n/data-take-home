@@ -53,3 +53,23 @@ _Please commit a _enriched.csv_ file along with your solution code in the `solut
 
 Python's [csv](https://docs.python.org/2/library/csv.html) module is standard for dealing with CSV data.
 
+## Submission Guidelines
+
+We ask that your solutions be implemented in Python. If you are coming from a different language or if your Python is rusty, we've linked to a few Python reference resources (in order of length/detail) below to help!
+
+[LPTHW](https://learnpythonthehardway.org/book/) - slow-build introduction to basic programming in Python.
+[Google's Python Class](https://developers.google.com/edu/python/) - crash course on Python syntax and data types.
+[learn x in y minutes](https://learnxinyminutes.com/docs/python/) - quick Python reference and run-through.
+
+_Anything specified as "optional" or "bonus" is just that, and you will not be penalized for its exclusion._
+
+We suggest submission of these materials in 2 business days. Please do not hesitate to contact us if any of the above instructions are unclear, or if you'd like to discuss any of the test components in greater detail. We are here to help!
+
+### Assessment Criteria
+
+Our goal is not to fool you. On the contrary, we would like to see you in your best light! We value clean, DRY and documented code; and in the interest of full disclosure, our assessment criteria is outlined below (in order of significance):
+
+Your ability to effectively solve the problems posed.
+Your ability to solve these problems in a clear and logical manner, with tasteful design.
+Your ability to appropriately document and comment your code. 
+
