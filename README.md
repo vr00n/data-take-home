@@ -1,7 +1,7 @@
 # Data Take Home Exercises
 
 Thank you for taking the time to attempt these exercises. We're sincerely thankful for your time in attempting these. 
-We estimate depending on your skill level these exercises to take between 30 minutes to 2 hours. If you find yourself
+We estimate depending on your skill level these exercises to take between 1 to 2.5 hours. If you find yourself
 taking more than 2 hours, you may be over-engineering the solution, consider taking an easier option.
 
 ## Instructions
