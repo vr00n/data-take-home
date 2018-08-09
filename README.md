@@ -38,13 +38,13 @@ Python's [json](https://docs.python.org/2/library/json.html) module is convenien
 
 Write a script to transform input CSV to desired output CSV. 
 
-You will find a CSV file in the files folder under [data.csv](files/data.csv). There are two steps (plus an optional bonus) to this part of the test. Each step concerns manipulating the values for a single field according to the step's requirements. The steps are as follows:
+You will find a CSV file in the files folder under [data.csv](files/data.csv). There are two steps (plus an optional bonus - Date offset) to this part of the test. Each step concerns manipulating the values for a single field according to the step's requirements. The steps are as follows:
 
-*String cleaning* - The bio field contains text with arbitrary padding, spacing and line breaks. Normalize these values to a space-delimited string.
+**String cleaning** - The bio field contains text with arbitrary padding, spacing and line breaks. Normalize these values to a space-delimited string.
 
-*Code swap* - There is a supplementary CSV in the files folder under [state_abbreviations.csv](files/state_abbreviations.csv). This "data dictionary" contains state abbreviations alongside state names. For the state field of the input CSV, replace each state abbreviation with its associated state name from the data dictionary.
+**Code swap** - There is a supplementary CSV in the files folder under [state_abbreviations.csv](files/state_abbreviations.csv). This "data dictionary" contains state abbreviations alongside state names. For the state field of the input CSV, replace each state abbreviation with its associated state name from the data dictionary.
 
-*Date offset* - The start_date field contains data in a variety of formats. These may include e.g., "June 23, 1912" or "5/11/1930" (month, day, year). But not all values are valid dates. Invalid dates may include e.g., "June 2018", "3/06" (incomplete dates) or even arbitrary natural language. Add a start_date_description field adjacent to the start_date column to filter invalid date values into. Normalize all valid date values in start_date to ISO 8601 (i.e., YYYY-MM-DD).
+**Date offset** - The start_date field contains data in a variety of formats. These may include e.g., "June 23, 1912" or "5/11/1930" (month, day, year). But not all values are valid dates. Invalid dates may include e.g., "June 2018", "3/06" (incomplete dates) or even arbitrary natural language. Add a start_date_description field adjacent to the start_date column to filter invalid date values into. Normalize all valid date values in start_date to ISO 8601 (i.e., YYYY-MM-DD).
 
 Your script should take [data.csv](files/data.csv) as input and produce a cleansed "enriched.csv" file according to the step requirements above. 
 
