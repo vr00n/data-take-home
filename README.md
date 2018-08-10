@@ -71,7 +71,7 @@ We suggest submission of these materials within 2 business days.
 
 Please do not hesitate to contact us if any of the above instructions are unclear, or if you'd like to discuss any of the test components in greater detail. We are here to help!
 
-Email: [take-home-help@enigma.com](mailto:take-home-help@enigma.com)
+Email: [take-home-help at enigma dot com]
 
 ### Assessment Criteria
 
