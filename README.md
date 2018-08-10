@@ -43,7 +43,7 @@ You will find a CSV file in the files folder under [data.csv](files/data.csv). T
 
 **Code swap** - There is a supplementary CSV in the files folder under [state_abbreviations.csv](files/state_abbreviations.csv). This "data dictionary" contains state abbreviations alongside state names. For the state field of the input CSV, replace each state abbreviation with its associated state name from the data dictionary.
 
-**Date offset** - The start_date field contains data in a variety of formats. These may include e.g., "June 23, 1912" or "5/11/1930" (month, day, year). But not all values are valid dates. Invalid dates may include e.g., "June 2018", "3/06" (incomplete dates) or even arbitrary natural language. Add a start_date_description field adjacent to the start_date column to filter invalid date values into. Normalize all valid date values in start_date to ISO 8601 (i.e., YYYY-MM-DD).
+(Optional) **Date offset** - The start_date field contains data in a variety of formats. These may include e.g., "June 23, 1912" or "5/11/1930" (month, day, year). But not all values are valid dates. Invalid dates may include e.g., "June 2018", "3/06" (incomplete dates) or even arbitrary natural language. Add a start_date_description field adjacent to the start_date column to filter invalid date values into. Normalize all valid date values in start_date to ISO 8601 (i.e., YYYY-MM-DD).
 
 Your script should take [data.csv](files/data.csv) as input and produce a cleansed "enriched.csv" file according to the step requirements above. 
 
@@ -65,13 +65,18 @@ We ask that your solutions be implemented in Python. If you are coming from a di
 
 _Anything specified as "optional" or "bonus" is just that, and you will not be penalized for its exclusion._
 
-We suggest submission of these materials in 2 business days. Please do not hesitate to contact us if any of the above instructions are unclear, or if you'd like to discuss any of the test components in greater detail. We are here to help!
+We suggest submission of these materials within 2 business days.
+
+### Getting help
+
+Please do not hesitate to contact us if any of the above instructions are unclear, or if you'd like to discuss any of the test components in greater detail. We are here to help!
+
+Email: [take-home-help@enigma.com](mailto:take-home-help@enigma.com)
 
 ### Assessment Criteria
 
 Our goal is not to fool you. On the contrary, we would like to see you in your best light! We value clean, DRY and documented code; and in the interest of full disclosure, our assessment criteria is outlined below (in order of significance):
 
-Your ability to effectively solve the problems posed.
-Your ability to solve these problems in a clear and logical manner, with tasteful design.
-Your ability to appropriately document and comment your code. 
-
+1. Your ability to effectively solve the problems posed.
+1. Your ability to solve these problems in a clear and logical manner, with tasteful design.
+1. Your ability to appropriately document and comment your code.  
