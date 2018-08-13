@@ -16,12 +16,13 @@ for index, row in data.iterrows():
 # Code Swap
     data.at[index,'state'] = state.loc[state['state_abbr'] == row['state']].state_name.to_string().split()[1]
 # Date Offset
+  try:
+        d = parser.parse(row['start_date'])
+        data.at[index,'start_date_description'] = d.strftime("%Y-%m-%d")
+    except ValueError:
+        data.at[index,'start_date_description'] = "Invalid Date"
+    if len(row['start_date'].split()) == 2:
+        data.at[index,'start_date_description'] = "Invalid Date"
     if len(row['start_date']) < 8:
         data.at[index,'start_date_description'] = "Invalid Date"
-    else:
-        try:
-            d = parser.parse(row['start_date'])
-            data.at[index,'start_date_description'] = d.strftime("%Y-%m-%d")
-        except ValueError:
-            data.at[index,'start_date_description'] = "Invalid Date"
 data.to_csv('enriched.csv')
