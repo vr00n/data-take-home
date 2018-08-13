@@ -16,7 +16,7 @@ for index, row in data.iterrows():
 # Code Swap
     data.at[index,'state'] = state.loc[state['state_abbr'] == row['state']].state_name.to_string().split()[1]
 # Date Offset
-  try:
+    try:
         d = parser.parse(row['start_date'])
         data.at[index,'start_date_description'] = d.strftime("%Y-%m-%d")
     except ValueError:
